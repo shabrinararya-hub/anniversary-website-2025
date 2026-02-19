@@ -21,8 +21,6 @@ const CONFIG = {
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
-    ![Alt text](IMG_0326.PNG) 
-
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
