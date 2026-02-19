@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "AXCELIA SAYAAAANG",
+    valentineName: "Axcelia",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "After a year together, Do you still like meeee. Right answer only!!!?",                                    // First interaction
+            text: "Happy Anniversaryyyy ❤️. After a year together, Do you still like meeee. Right answer only!!!?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
-            text: " Ihihiiiiiy, emang how much do you love meee?",                          // For the love meter
+            text: " Ihihiiiiiy emang iyah? how much do you love me emaaang?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "Yippehhhh! I really am the luckiest person in the world! 🎉💝💖💝💓",
         message: "As a gift, I will be going to JKT early in the morning of 24th and nginep thereeeee. WE CAN WATCHY EATY AND CUDDLY ALL NIGHTTT YEIIIIIY!!!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "🎁💖🤗💝💋❤️💕😏🍆👅💦"  // These will bounce around
     },
 
     // Color scheme for the website
