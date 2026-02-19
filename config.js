@@ -1,92 +1,70 @@
-// ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
-// ============================================
+// Basic Information
+valentineName: "HAPPY ANNIVERSARY AXCELIAAAA"                    // Your Valentine's name
+pageTitle: "Happy Anniversary Sayaaaaang 💝" // Browser tab title
 
-const CONFIG = {
-    // Happy Anniversary Axcelia Sayaaaang!!! 💝 💖 💗 💓 💞 💕
-    
-    // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Axcelia",
+// Floating Background Elements
+floatingEmojis: {
+    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
+    bears: ['🧸', '🐻']                       // Bear emojis in background
+}
 
-    
-    // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Happy Anniversay Sayaaaaang!!!! 💝💝💝",
-
-    // Floating emojis that appear in the background
-    // Find more emojis at: https://emojipedia.org
-    floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+// Questions and Buttons
+questions: {
+    first: {
+        text: "After an enitre year toghether, do you still like me?",                   // First question
+        yesBtn: "Yes",                             // Yes button text
+        noBtn: "No",                               // No button text
+        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
     },
-
-    // Questions and answers
-    // Customize each question and its possible responses
-    questions: {
-        first: {
-            text: "After 1 year together, do you still like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
-        },
-        second: {
-            text: "Owyaaaah, how much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
-        },
-        third: {
-            text: "Since you love me that much, will you still be my Valentine next year on February 14th, 2027? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
-        }
+    second: {
+        text: "How much do you love me?",          // Second question
+        startText: "This much!",                   // Text before percentage
+        nextBtn: "Next ❤️"                         // Next button text
     },
-
-    // Love meter messages
-    // They show up depending on how far they slide the meter
-    loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
-    },
-
-    // Messages that appear after they say "Yes!"
-    celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "As a gift, I will be going to Jakarta on the 24th before my flight on the 25th. WE CAN CUDDLE ALL NIGHT YIIPEHHHHHH",
-        emojis: "🎁💖🤗💝💋❤️💕🍀🍆😏"  // These will bounce around
-    },
-
-    // Color scheme for the website
-    // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
-    colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
-    },
-
-    // Animation settings
-    // Adjust these if you want faster/slower animations
-    animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
-    },
-
-    // Background Music (Optional)
-    // Add your own music URL after getting proper licenses
-    music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dgeb2mudq/video/upload/v1771487116/Wave_to_Earth_-_Seasons__mp3.pm_yjwwbq.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+    third: {
+        text: "Since you love me that much, can you promise me that you'll still be my Valentine next year 🎁💖🤗💝💋❤️💕?",      // Final question
+        yesBtn: "Yes!",                            // Yes button text
+        noBtn: "No"                                // No button text
     }
-};
+}
 
-// Don't modify anything below this line unless you know what you're doing
-window.VALENTINE_CONFIG = CONFIG; 
+// Love Meter Messages
+loveMessages: {
+    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
+    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
+    normal: "And beyond! 🥰"                           // Shows above 100%
+}
+
+// Final Celebration
+celebration: {
+    title: "Yippehhh! I really am the luckiest person in the world",     // Celebration title
+    message: "As a gifttt, I bakalan go to JKT on the 24th and nginepppp. WE CAN CUDDLE ALL NIGHT AND WATCHY SHOWS WHILE EATYYYY YEIIIIY",          // Celebration message
+    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
+}
+
+// Website Colors
+colors: {
+    backgroundStart: "#ffafbd",      // Background gradient start
+    backgroundEnd: "#ffc3a0",        // Background gradient end
+    buttonBackground: "#ff6b6b",     // Button color
+    buttonHover: "#ff8787",          // Button hover color
+    textColor: "#ff4757"            // Text color
+}
+
+// Animation Settings
+animations: {
+    floatDuration: "15s",           // How long hearts float (10-20s)
+    floatDistance: "50px",          // Sideways movement (30-70px)
+    bounceSpeed: "0.5s",            // Bounce animation speed (0.3-0.7s)
+    heartExplosionSize: 1.5         // Final heart explosion size (1.2-2.0)
+}
+
+// Music Settings
+music: {
+    enabled: true, // Music feature is enabled
+    autoplay: true, // Try to autoplay (note: some browsers may block this)
+    musicUrl: "https://res.cloudinary.com/dgeb2mudq/video/upload/v1771487437/Wave_to_Earth_-_Seasons__mp3.pm_h3wyh2.mp3", // Paste your music URL here
+    startText: "🎵 Play Music", // Button text to start music
+    stopText: "🔇 Stop Music", // Button text to stop music
+    volume: 0.5 // Volume level (0.0 to 1.0)
+}
